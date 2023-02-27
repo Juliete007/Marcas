@@ -1,0 +1,410 @@
+/*Para todos*/
+body{
+    margin: 0;
+}
+.titulo{
+    text-align: center;
+    border: 1px black solid;
+    background-color: #95ffc5;
+    width: 100vw;
+}
+
+.indice{
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    background-color: #fad48d;
+    border: 1px black solid;
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+}
+
+.enlaces{
+    margin-top: 1%;
+    text-align: center;
+    max-height: 5vh;
+    border: 1px black solid;
+    bottom: 0;
+    width: 100%;
+    background-color: #95ffc5;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    display: flex;
+    position:fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+
+.Espacios{
+    margin-right:2%;
+}
+
+/*index.html*/
+.Parrafo_indice{
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.Texto_indice{
+    margin-bottom: 1.5%;
+}
+  
+.Texto_indice {
+    font-family: sans-serif;
+}
+  
+.Texto_indice p {
+    font-size: 1.2em;
+}
+  
+@media (max-width: 10000px) {
+    .Texto_indice p {
+      font-size: 1.1em;
+    }
+  }
+  
+
+.Paris{
+    text-align: center;
+}
+
+.Paris:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width: 10000px) {
+    .Contaminacion {
+      width: 80vw;
+    }
+  }
+
+
+.Contaminacion_centrar{
+    text-align: center;
+    margin-top: 0.8%;
+    padding-bottom: 4%;
+}
+
+.Wikipedia_logo{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.Wikipedia_logo:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.3);
+}
+
+
+/*Pagina1.html*/
+
+.Parrafo_1{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right: 1%;;
+}
+
+.Texto_1{
+    text-align: justify;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+/*Pagina2.html*/
+.Parrafos_2{
+    margin-top: 4%;
+    }
+
+.enunciado_2{
+    margin-top: -4%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border: 1px black solid;
+    background-color: #71cf9b;
+    font-family: "Trebuchet MS";
+    font-size: larger;
+    font-weight:bold;
+}
+
+.enunciado_5{
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border: 1px black solid;
+    background-color: #71cf9b;
+    font-family: "Trebuchet MS";
+    font-size: larger;
+    font-weight:bold;
+    width: 100vw;
+}
+
+.texto2-1{
+    margin-left: 3%;
+    margin-top: 1%;
+    text-align: justify;
+    margin-bottom: 2%;
+
+}
+.texto2-2{
+    margin-left: 3%;
+    margin-top: 1%;
+    text-align: justify;
+    margin-bottom: 2%;
+
+}
+
+
+.i-a{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    background-size:cover ;
+    width: 40%;
+    max-width: 40%;
+    border: 1px black solid;
+    margin-left: 30%;
+    padding-bottom:1%;
+}
+/*Pagina-5*/
+
+.n,.e,.he{
+    height: 30vh;
+    width: auto;
+}
+
+.Contenedor_pagina_5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  
+.Contenedor_pagina_5 div {
+    margin: 10px;
+  }
+
+  @media (max-width: 10000px) {
+    .texto5 p {
+      font-size: 1.1em;
+    }
+  }
+
+.texto5 {
+    font-family: sans-serif;
+}
+  
+.texto5 p {
+    font-size: 1.2em;
+}
+  
+.texto5{
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 3%;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.Candado{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+/*Pagina3.html*/
+.Parrafo_3{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right: 1%;;
+}
+
+/*Pagina4.html*/
+.Parrafos_4{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 60%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom:2%;
+}
+
+@media (max-width: 10000px) {
+    .Parrafos_4 {
+      width: 96%;
+      float: none;
+      margin-right: 4%;
+      margin-bottom:2%;
+    }
+    .contenedor-imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .contenedor-imagenes img {
+        margin: 0 10px;
+        max-width: 100%;
+        height: auto;
+      }
+      
+}
+
+@media (max-width: 10000px) {
+    .Texto_4 p {
+      font-size: 1.1em;
+    }
+  }
+
+.Texto_4 {
+    font-family: sans-serif;
+}
+  
+.Texto_4 p {
+    font-size: 1.2em;
+}
+
+.contenedor-imagenes{
+    margin-bottom: 7%;
+}
+
+.enunciado_4{
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border: 1px black solid;
+    background-color: #71cf9b;
+    font-family: "Trebuchet MS";
+    font-size: larger;
+    font-weight:bold;
+    width: 100vw;
+}
+
+.Img_1{
+    background-size:cover ;
+    width: 30%;
+    max-width: 30%;
+    border: 1px black solid;
+    max-height: 50vh;
+}
+
+.Img_2{
+    background-size:cover ;
+    width: 30%;
+    max-width: 30%;
+    max-height: 37.5vh;
+    border: 1px black solid;
+}
+
+.Texto_4{
+    text-align: justify;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.Lista{
+    margin-bottom: 1%;
+}
+
+.Logo_youtube{
+    max-width: 40%;
+    max-height: 30%;
+}
+
+.Ree_logo{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.irena_logo{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.ucs_logo{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.asequible_logo{
+    max-width: 30%;
+    max-height: 30%;
+    margin-right: 5%;
+}
+
+.Logo_youtube:hover,.Ree_logo:hover,.irena_logo:hover,.ucs_logo:hover,.asequible_logo:hover,.Candado:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.3);
+}
+
+/*Pagina 6*/
+.Parrafo_6{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right: 1%;;
+    margin-bottom:2%;
+}
+
+.Texto_6{
+    text-align: justify;
+    margin-bottom: 1%;
+    font-size: large;
+}
+
+.Periodico_logo, .Transportar_logo{
+    max-width: 5%;
+    margin-right: 1.5%;
+}
+
+.Fiabilidad_logo{
+    max-width: 4%;
+    margin-right: 1.5%;
+}
+
+.Periodico_logo:hover, .Transportar_logo:hover, .Fiabilidad_logo:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.3);
+}
+
+.P3{    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    background-size:cover ;
+    width: 40%;
+    max-width: 40%;
+    border: 1px black solid;
+    margin-left: 30%;
+}
+
+.P4{    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    background-size:cover ;
+    width: 25%;
+    max-width: 25%;
+    border: 1px black solid;
+    margin-left: 30%;
+}
+.texto3{
+        margin-left: 3%;
+    margin-top: 1%;
+    text-align: justify;
+    margin-bottom: 2%;
+    margin-right:1%;
+}
